@@ -1,0 +1,93 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.labelFormat": "short",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": true,
+    "window.zoomLevel": 1,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "html": {
+            "attr_quotes": "single"
+        },
+        "jsx": {
+            "self_closing_tag": true
+        }
+    },
+    "emmet.variables": {
+        "lang": "pt-br",
+        "charset": "utf-8"
+    },
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "domain": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe",
+        "providers": "include",
+        "subscribers": "messages",
+        "useCases": "controller",
+        "kafka": "scripts",
+        "mappers": "meta",
+        "_shared": "shared",
+        "eslint-config": "tools",
+        "kube": "kubernetes"
+    },
+    "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune",
+        "*.proto": "3d",
+        "*.webpack.js": "webpack"
+    },
+    "cSpell.language": "en,pt",
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json",
+        "*.tsx": "typescriptreact",
+        "*.html": "html",
+    },
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "remove",
+    "emmet.triggerExpansionOnTab": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+}
